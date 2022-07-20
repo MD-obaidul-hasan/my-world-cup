@@ -53,6 +53,10 @@ main {
     color: #FFFFFF;
 }
 
+.live:hover {
+    background-color: greenyellow;
+}
+
 .live {
     display: flex;
     flex-direction: row;
@@ -79,9 +83,7 @@ main {
     border: 0;
 }
 
-.live:hover {
-    background-color: greenyellow;
-}
+
 
 .watch {
     margin-top: auto;
@@ -185,7 +187,6 @@ main {
 .watchsss {
     margin-top: 0%;
     margin-left: 40%;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -376,13 +377,15 @@ main {
     color: #080808;
 }
 
+
+
 /* footer */
 
 .footcont {
     position: absolute;
     width: 1600px;
     height: 444px;
-    left: 55px;
+    left: 5px;
     top: 2090px;
     background: #000000;
 }
@@ -457,3 +460,73 @@ hr {
 .f {
     padding-left: 80px;
 }
+
+/* media quaries */
+/* mobile device */
+
+@media only screen and (max-width:688px) {
+    .container .menubar .footcont {
+        width: 100%;
+    }
+
+    .heading .image .menus .transfer .footer {
+        background-color: rgb(8, 8, 8);
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .headd .para .live .image .lives .livess .livesss .ptrans .ptranss .ptransss .ptranssss .ptransssss .ptranssssss .ptransssssss .ptranssssssss .ptransssssssss .foot .contin {
+        flex-direction: column;
+    }
+
+    .lives .livess .livesss .ptrans .ptranss .ptransss .ptranssss .ptransssss .ptranssssss .ptransssssss .ptranssssssss .ptransssssssss .foot .contin {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* tab */
+
+@media only screen and (max-width:992px) {
+    .container .menubar .footcont {
+        width: 100%;
+    }
+
+    .menus {
+        background-color: rgb(8, 8, 8);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+
+    .transfer {
+        background-color: rgb(8, 8, 8);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .lives .livess .livesss .ptrans .ptranss .ptransss .ptranssss .ptransssss .ptranssssss .ptransssssss .ptranssssssss .ptransssssssss {
+        flex-direction: column;
+    }
+
+    .lives .livess .livesss .ptrans .ptranss .ptransss .ptranssss .ptransssss .ptranssssss .ptransssssss .ptranssssssss .ptransssssssss {
+        grid-template-columns: repeat(2, 1fr);
+    }
+/* notice all view button css style for tab */
+    /* .all view {
+        padding: 16px 30px;
+        gap: 10px;
+        width: 250px;
+        height: 65px;
+         margin-top: 25px;
+        margin-left: 30px; 
+        background: rgb(255, 4, 4);
+        border-radius: 10px;
+    }
+
+    .view {
+        margin-left: 50%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #f8f6f6;
+    } */ */
