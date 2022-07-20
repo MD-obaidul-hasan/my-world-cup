@@ -24,6 +24,7 @@ main {
     border-radius: 30px;
 }
 
+
 .heading {
     position: absolute;
     width: 542px;
@@ -99,6 +100,9 @@ main {
 
 /* sesond part */
 .menubar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     position: absolute;
     width: 312px;
     height: 312px;
@@ -188,14 +192,115 @@ main {
 }
 
 /* player transfer */
+
+
 .transfer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.ptrans {
     position: absolute;
     width: 312px;
     height: 362px;
     left: 336px;
     top: 0px;
     background-color: aqua;
+    display: flex;
+    border-radius: 10px;
 }
+
+.ptranss {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 672px;
+    top: 0px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 10px;
+}
+
+.ptransss {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 1008px;
+    top: 0px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 10px;
+}
+
+.ptranssss {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 336px;
+    top: 390px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 10px;
+}
+
+.ptransssss {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 672px;
+    top: 390px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 10px;
+}
+
+.ptranssssss {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 1008px;
+    top: 390px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 10px;
+}
+
+.ptransssssss {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 336px;
+    top: 780px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 10px;
+}
+
+.ptranssssssss {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 672px;
+    top: 780px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 10px;
+}
+
+.ptransssssssss {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 1008px;
+    top: 780px;
+    background-color: aqua;
+    display: flex;
+    border-radius: 10px;
+}
+
+
+
 
 .player-banner img {
     position: absolute;
@@ -203,34 +308,13 @@ main {
     height: 175px;
     left: 0px;
     top: 0px;
-
-    /* background: url(Egypt-Senegal-1024x683.jpg); */
     border-radius: 10px 10px 0px 0px;
-}
-
-.transfer {
-    display: flex
-    ;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 7px;
-    border-radius: 5px;
-    /* background-color: bisque; */
-}
-
-.ptrans {
-    display: flex;
 }
 
 .player-details {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.shoe {
-    background-color: pink;
-    color: black;
-    margin-top: 10px;
 }
 
 .button {
@@ -240,6 +324,12 @@ main {
     left: 25px;
     top: 190px;
     border-radius: 5px;
+    background-color: salmon;
+}
+
+.shos {
+    color: #070000;
+    margin-top: 10px;
 }
 
 .player-title {
@@ -254,13 +344,10 @@ main {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-
     color: #161616;
 }
 
-
-
-.player-duration {
+.course-duration {
     position: absolute;
     width: 60px;
     height: 26px;
@@ -271,6 +358,78 @@ main {
 
 }
 
-. fa fa-clock {
+.course-durations {
+    position: absolute;
+    width: 60px;
+    height: 26px;
+    left: 35px;
+    top: 320px;
+    color: black;
+    background-color: aqua;
+}
+
+.fa fa-clock {
     color: rgb(15, 15, 15);
+}
+
+.fa-solid fa-message-dots {
+    color: #080808;
+}
+
+.footcont {
+    /* display: flex; */
+    position: absolute;
+    width: 1600px;
+    height: 444px;
+    left: 55px;
+    top: 2090px;
+
+    background: #000000;
+}
+
+.foot {
+    position: absolute;
+    width: 95px;
+    height: 60px;
+    margin-top: 7%;
+    margin-left: 45%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #fcfbfb;
+}
+
+hr {
+    position: absolute;
+    width: 1320px;
+    height: 1px;
+    left: 140px;
+
+    margin-top: 12%;
+    margin-left: 0%;
+
+    border: 1px solid rgb(49, 48, 48) (235, 223, 223, 0.1);
+}
+
+.details {
+    position: absolute;
+    left: 21.94%;
+    right: 21.94%;
+    top: 53.92%;
+    bottom: 35.13%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 12px;
+    /* identical to box height */
+
+    font-feature-settings: 'liga' off;
+    background-color: #3d0cc5;
+
+    color: #dad7e2;
 }
