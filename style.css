@@ -87,7 +87,7 @@ main {
     font-size: 20px;
     line-height: 10px;
     text-align: center;
-    color: #FFFFFF;
+    color: #050000;
 }
 
 .image {
@@ -202,11 +202,11 @@ main {
 
 .ptrans {
     position: absolute;
-    width: 312px;
+    width: 280px;
     height: 362px;
     left: 336px;
     top: 0px;
-    background-color: aqua;
+    background-color: rgb(197, 207, 207);
     display: flex;
     border-radius: 10px;
 }
@@ -217,7 +217,7 @@ main {
     height: 362px;
     left: 672px;
     top: 0px;
-    background-color: aqua;
+    background-color: rgb(197, 207, 207);
     display: flex;
     border-radius: 10px;
 }
@@ -228,7 +228,7 @@ main {
     height: 362px;
     left: 1008px;
     top: 0px;
-    background-color: aqua;
+    background-color: rgb(197, 207, 207);
     display: flex;
     border-radius: 10px;
 }
@@ -239,7 +239,7 @@ main {
     height: 362px;
     left: 336px;
     top: 390px;
-    background-color: aqua;
+    background-color: rgb(197, 207, 207);
     display: flex;
     border-radius: 10px;
 }
@@ -250,7 +250,7 @@ main {
     height: 362px;
     left: 672px;
     top: 390px;
-    background-color: aqua;
+    background-color: rgb(197, 207, 207);
     display: flex;
     border-radius: 10px;
 }
@@ -261,7 +261,7 @@ main {
     height: 362px;
     left: 1008px;
     top: 390px;
-    background-color: aqua;
+    background-color: rgb(197, 207, 207);
     display: flex;
     border-radius: 10px;
 }
@@ -272,7 +272,7 @@ main {
     height: 362px;
     left: 336px;
     top: 780px;
-    background-color: aqua;
+    background-color: rgb(197, 207, 207);
     display: flex;
     border-radius: 10px;
 }
@@ -283,7 +283,7 @@ main {
     height: 362px;
     left: 672px;
     top: 780px;
-    background-color: aqua;
+    background-color: rgb(197, 207, 207);
     display: flex;
     border-radius: 10px;
 }
@@ -294,7 +294,7 @@ main {
     height: 362px;
     left: 1008px;
     top: 780px;
-    background-color: aqua;
+    background-color: rgb(197, 207, 207);
     display: flex;
     border-radius: 10px;
 }
@@ -324,7 +324,9 @@ main {
     left: 25px;
     top: 190px;
     border-radius: 5px;
-    background-color: salmon;
+    border-color: rgb(197, 207, 207);
+    background-color: rgb(197, 207, 207);
+    /* background-color: salmon; */
 }
 
 .shos {
@@ -354,7 +356,8 @@ main {
     left: 15px;
     top: 320px;
     color: black;
-    background-color: aqua;
+    background-color: rgb(197, 207, 207);
+    /* background-color: aqua; */
 
 }
 
@@ -365,7 +368,8 @@ main {
     left: 35px;
     top: 320px;
     color: black;
-    background-color: aqua;
+    background-color: rgb(197, 207, 207);
+    /* background-color: aqua; */
 }
 
 .fa fa-clock {
@@ -429,7 +433,7 @@ hr {
     /* identical to box height */
 
     font-feature-settings: 'liga' off;
-    background-color: #3d0cc5;
+    background-color: #0a0a0a;
 
     color: #dad7e2;
 }
