@@ -79,6 +79,10 @@ main {
     border: 0;
 }
 
+.live:hover {
+    background-color: greenyellow;
+}
+
 .watch {
     margin-top: auto;
     font-family: 'HelveticaNeue';
@@ -87,7 +91,7 @@ main {
     font-size: 20px;
     line-height: 10px;
     text-align: center;
-    color: #050000;
+    color: #fafafa;
 }
 
 .image {
