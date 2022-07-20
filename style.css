@@ -98,7 +98,7 @@ main {
     top: -3px;
 }
 
-/* sesond part */
+/* sesond part menubar */
 .menubar {
     display: flex;
     flex-direction: row;
@@ -299,9 +299,6 @@ main {
     border-radius: 10px;
 }
 
-
-
-
 .player-banner img {
     position: absolute;
     width: 312px;
@@ -326,7 +323,6 @@ main {
     border-radius: 5px;
     border-color: rgb(197, 207, 207);
     background-color: rgb(197, 207, 207);
-    /* background-color: salmon; */
 }
 
 .shos {
@@ -340,7 +336,6 @@ main {
     height: 54px;
     left: 20px;
     top: 220px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -357,8 +352,6 @@ main {
     top: 320px;
     color: black;
     background-color: rgb(197, 207, 207);
-    /* background-color: aqua; */
-
 }
 
 .course-durations {
@@ -369,7 +362,6 @@ main {
     top: 320px;
     color: black;
     background-color: rgb(197, 207, 207);
-    /* background-color: aqua; */
 }
 
 .fa fa-clock {
@@ -380,14 +372,14 @@ main {
     color: #080808;
 }
 
+/* footer */
+
 .footcont {
-    /* display: flex; */
     position: absolute;
     width: 1600px;
     height: 444px;
     left: 55px;
     top: 2090px;
-
     background: #000000;
 }
 
@@ -411,10 +403,8 @@ hr {
     width: 1320px;
     height: 1px;
     left: 140px;
-
     margin-top: 12%;
     margin-left: 0%;
-
     border: 1px solid rgb(49, 48, 48) (235, 223, 223, 0.1);
 }
 
@@ -424,16 +414,42 @@ hr {
     right: 21.94%;
     top: 53.92%;
     bottom: 35.13%;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 12px;
-    /* identical to box height */
-
     font-feature-settings: 'liga' off;
     background-color: #0a0a0a;
-
     color: #dad7e2;
+}
+
+.contin {
+    display: flex;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+}
+
+.a {
+    padding-left: 2px;
+}
+
+.b {
+    padding-left: 25px;
+}
+
+.c {
+    padding-left: 40px;
+}
+
+.d {
+    padding-left: 50px;
+}
+
+.e {
+    padding-left: 65px;
+}
+
+.f {
+    padding-left: 80px;
 }
