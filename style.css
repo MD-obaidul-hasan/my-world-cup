@@ -17,12 +17,11 @@ main {
     position: absolute;
     width: 1321px;
     height: 646px;
-    left: 140px;
-    top: 50px;
+    left: 121px;
 
+    top: 57px;
     background: #161616;
     border-radius: 30px;
-
 }
 
 .heading {
@@ -34,7 +33,6 @@ main {
 }
 
 .headd {
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -42,38 +40,42 @@ main {
     line-height: 80px;
     margin-top: 21px;
     color: #FFFFFF;
-
 }
 
 .para {
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     margin-top: 21px;
-    /* or 162% */
-
-
     color: #FFFFFF;
 }
 
 .live {
-
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 16px 25px;
     gap: 10px;
-
     width: 187px;
     height: 56px;
     left: 259px;
     top: 534px;
-
-    background: #DD0000;
+    background: red;
     border-radius: 10px;
+}
+
+.btn {
+    width: 24px;
+    height: 24px;
+    color: white;
+    position: absolute;
+    left: 22.5%;
+    right: 46.33%;
+    bottom: -3.5%;
+    background-color: red;
+    border: 0;
 }
 
 .watch {
@@ -84,7 +86,6 @@ main {
     font-size: 20px;
     line-height: 10px;
     text-align: center;
-
     color: #FFFFFF;
 }
 
@@ -93,5 +94,183 @@ main {
     width: 881px;
     height: 813px;
     left: 701px;
+    top: -3px;
+}
+
+/* sesond part */
+.menubar {
+    position: absolute;
+    width: 312px;
+    height: 312px;
+    left: 140px;
+    top: 826px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.lives {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 30px;
+    gap: 10px;
+    width: 250px;
+    height: 65px;
+    margin-top: 33px;
+    margin-left: 30px;
+    background: rgb(252, 250, 250);
+    border-radius: 10px;
+}
+
+.watchs {
+    margin-top: 0%;
+    margin-left: 5%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #070707;
+}
+
+.livess {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 30px;
+    gap: 10px;
+    width: 250px;
+    height: 65px;
+    margin-top: 25px;
+    margin-left: 30px;
+    background: rgb(252, 250, 250);
+    border-radius: 10px;
+}
+
+.watchss {
+    margin-top: 0%;
+    margin-left: 25%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #080808;
+}
+
+.livesss {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 30px;
+    gap: 10px;
+    width: 250px;
+    height: 65px;
+    margin-top: 25px;
+    margin-left: 30px;
+    background: rgb(255, 4, 4);
+    border-radius: 10px;
+}
+
+.watchsss {
+    margin-top: 0%;
+    margin-left: 40%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #f8f6f6;
+}
+
+/* player transfer */
+.transfer {
+    position: absolute;
+    width: 312px;
+    height: 362px;
+    left: 336px;
     top: 0px;
+    background-color: aqua;
+}
+
+.player-banner img {
+    position: absolute;
+    width: 312px;
+    height: 175px;
+    left: 0px;
+    top: 0px;
+
+    /* background: url(Egypt-Senegal-1024x683.jpg); */
+    border-radius: 10px 10px 0px 0px;
+}
+
+.transfer {
+    display: flex
+    ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 7px;
+    border-radius: 5px;
+    /* background-color: bisque; */
+}
+
+.ptrans {
+    display: flex;
+}
+
+.player-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shoe {
+    background-color: pink;
+    color: black;
+    margin-top: 10px;
+}
+
+.button {
+    position: absolute;
+    width: 100px;
+    height: 32px;
+    left: 25px;
+    top: 190px;
+    border-radius: 5px;
+}
+
+.player-title {
+    position: absolute;
+    width: 272px;
+    height: 54px;
+    left: 20px;
+    top: 220px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #161616;
+}
+
+
+
+.player-duration {
+    position: absolute;
+    width: 60px;
+    height: 26px;
+    left: 15px;
+    top: 320px;
+    color: black;
+    background-color: aqua;
+
+}
+
+. fa fa-clock {
+    color: rgb(15, 15, 15);
 }
